@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.nav_bar{
+    display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 20px;
+  width: 95%;
+  margin: 0 20px;
+}
+.font{
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.font:hover{
+    text-decoration:underline;
+}
+.main{
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_bigbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_box{
+    width: 584px;
+    height:46px;
+    border: 1px solid rgb(223,225,229);
+    border-radius: 26px;
+    padding: 0px 50px;
+}
+.search_icon{
+    position: relative;
+    left: 50px;
+}
+.mic_icon{
+    position: relative;
+    right: 50px;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.button{
+    padding: 0px 16px;
+    height: 36px;
+    border: none;
+    background-color: rgb(248,249,250);
+}
+.button:hover{
+    border: 1px solid black;
+}
+.lng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer{
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(242, 242, 242);
+
+}
+.footer_1{
+    border-bottom: 1px solid rgb(223,225,229);
+    padding: 20px;
+}
+.footer2{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+.footer3{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

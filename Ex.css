@@ -1,0 +1,102 @@
+ body{
+    display : contents; /*CSS 레이아웃을 유지하면서 불필요한 부모 요소를 무시할 수 있음*/
+ }
+
+
+ .nav_bar{
+    float: right;   /*오른쪽 정렬, (좌우 정렬)*/
+    margin: 20px; 
+    /*padding콘텐츠와 경계사이의 내부여백 (배경색과 함께 확장) margin은 경계와 다른 사이에 외부 여백 (배경색과 상관없이 투명) */
+ }
+
+.font{
+    color: black;
+    text-decoration: none;  /*링크의 밑줄 제거*/
+    margin-right: 15px;
+}
+
+/* 마우스를 올렸을때 */
+.font:hover{ 
+    text-decoration: underline;
+}
+
+.main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.img{
+    margin-bottom: 20px;
+}
+
+.input_box{
+    width: 584px;
+    height: 46px;
+    border: 1px solid rgb(223, 225, 229); /*border은 테두리를 의미하고 solid는 테두리 스타일을 의미*/
+    border-radius: 26px;    /*박스 칸을 둥글게 만들기*/
+    padding:0px 50px; 
+    /*상하 0px 좌우 50px
+    주의 할점 : 4가지를 패딩줄때는 위 오른쪽 아래 왼쪽 순으로 줌*/
+}
+
+.search_icon{
+    position: relative; /*상대적으로 위치를 배치할때 사용*/
+    left: 50px;
+}
+
+.mic_icon{
+    position:relative;
+    right: 50px;
+
+}
+
+.button_container{
+    margin: 20px 0px;
+}
+
+.button{
+    border:none;
+    height : 36px;
+    background-color: rgb(248,249,250);
+    padding: 0px 16px;
+}
+
+
+.button:hover{
+    border: 1px solid black;
+}
+
+.lng{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+}
+
+.lng:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer{
+    position: absolute; /*문서 흐름에서 제어*/
+    width: 100%;
+    bottom:0;
+    background-color: rgb(242,242,242);
+}
+
+.footer_1{
+    border-bottom:1px solid rgb(223,225,229) ;
+    padding: 20px;
+}
+
+.footer_2{
+    float: left;
+    padding: 20px;
+}
+
+.footer_3{
+    float: right;
+    padding: 20px;
+}
+
+
